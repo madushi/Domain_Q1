@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FirstTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LogInTest FF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.domain.Question01">
+        <methods>
+          <include name="question01"/>
+          <include name="methodSetUp"/>
+          <include name="methodTearDown"/>
+        </methods>
+      </class> <!-- com.domain.Question01 -->
+    </classes>
+  </test> <!-- LogInTest FF(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->
